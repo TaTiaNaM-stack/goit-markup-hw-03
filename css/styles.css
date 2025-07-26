@@ -73,7 +73,7 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+    padding: 0;
 }
 
 .active-navigation{
@@ -83,7 +83,7 @@ img{
 
 .contact-list{
     display: flex;
-    padding: 24px 0;
+    padding: 0;
     align-items: center;
     gap: 40px;
 }
@@ -123,6 +123,7 @@ img{
     letter-spacing: 0.02em;
     margin-left: auto;
     display: flex;
+    padding: 0;
 }
 .contact:hover {
     color: #404bbf;
@@ -133,6 +134,10 @@ img{
 
 .big-title{
     background-color: #2e2f42;
+    padding: 0;
+    margin: 0;
+    display: block;
+    
 }
 
 .main-title{
@@ -143,6 +148,15 @@ img{
         text-align: center;
         color: #fff;
         background-color: #2e2f42;
+        width: 496px;
+        height: 600px;
+        padding: 0;
+        padding-bottom: 0;
+        margin-top: 188px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        display: block;
 }
 
 .button {
@@ -153,13 +167,42 @@ img{
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .button:hover, .button:focus{
     background: #404bbf;
 }
 
+.about{
+    padding: 0;
+    margin: 0;
+    height: 344px;
+}
+
 .ghost-title{
     color: #2e2f42;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(100% - 3 * 24 / 4);
+    padding: 0;
+    margin: 100 0 0 0;
 }
 
 .team{
@@ -171,8 +214,27 @@ img{
     color: #2e2f42;
 }
 
+.list-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin-top: 100px;
+}
+
 .background{
     background-color: #fff;
+    border-radius: 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
+}
+
+.about-people{
+    padding: 0 24px;
+    margin-top: 24px;
+    display: block;
 }
 
 .title, .title-man{
@@ -190,6 +252,7 @@ img{
 .title-man{
     text-align: center;
     color: #2e2f42;
+    display: block;
 }
 
 .title-team{
@@ -213,6 +276,7 @@ p{
 .text-center{
     text-align: center;
     letter-spacing: 0.02em; 
+    display: block;
 }
 
 .title-portfolio{
