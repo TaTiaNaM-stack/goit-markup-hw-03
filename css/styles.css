@@ -34,7 +34,7 @@ img{
 
 
 .page-heder{
-    border-bottom: 1px #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation{
@@ -79,7 +79,7 @@ img{
 
 .active-navigation{
    display: block;
-   padding: 24px 0;
+   padding: 24px 0 24px;
 }
 
 .contact-list{
@@ -193,8 +193,10 @@ img{
     background: #404bbf;
 }
 
+
+
 .about{
-    padding: 0;
+    padding: 120px 0;
     margin: 0;
     height: 344px;
     justify-content: space-between;
@@ -249,6 +251,7 @@ img{
     margin-top: 120px;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .list-team{
@@ -262,7 +265,7 @@ img{
 
 .background{
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: calc((100% - 3 * 24px) / 4);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -271,7 +274,7 @@ img{
 }
 
 .about-people{
-    padding: 0 24px;
+    padding: 32px 0;
     margin-top: 24px;
     display: block;
 }
@@ -355,7 +358,7 @@ p{
 .description{
     display: block;
     padding: 32px 16px;
-    border: 1px #e7e9fc;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
