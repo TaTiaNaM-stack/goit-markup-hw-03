@@ -34,7 +34,7 @@ img{
 
 
 .page-heder{
-    border-bottom: #e7e9fc;
+    border-bottom: 1px #e7e9fc;
 }
 
 .navigation{
@@ -45,7 +45,7 @@ img{
 }
 
 .logo-header{
-    padding: 24px 0;
+    padding: 24px 0 24px;
     margin-right: 76px;
 }
 
@@ -141,7 +141,7 @@ img{
 
 .big-title{
     background-color: #2e2f42;
-    padding: 0;
+    padding: 188px 0;
     margin: 0;
     display: block;
     
@@ -164,6 +164,7 @@ img{
         margin-right: auto;
         margin-bottom: 0;
         display: block;
+        max-width: 496px;
 }
 
 .button {
@@ -184,6 +185,9 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 .button:hover, .button:focus{
     background: #404bbf;
@@ -221,7 +225,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: calc(100% - 3 * 24 / 4);
+    gap: 24px;
     padding: 0;
     margin: 100px 0 0 0;
 }
@@ -230,6 +234,10 @@ img{
     display: block;
     width: calc((100% - 3 * 24px) / 4);
     gap: 24px;
+}
+
+.title{
+   margin-bottom: 8px; 
 }
 
 .team{
@@ -255,9 +263,11 @@ img{
 .background{
     background-color: #fff;
     border-radius: 4px;
-padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
+    padding: 0px 0px 32px 0px;
+    width: calc((100% - 3 * 24px) / 4);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 380px;
 }
 
 .about-people{
@@ -268,9 +278,9 @@ height: 380px;
 
 .title, .title-man{
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
         
 }
 
@@ -282,6 +292,7 @@ height: 380px;
     text-align: center;
     color: #2e2f42;
     display: block;
+    margin-bottom: 8px;
 }
 
 .title-team{
@@ -317,6 +328,7 @@ p{
     text-transform: capitalize;
     color: #2e2f42;
     margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .list-portfolio{
@@ -329,18 +341,22 @@ p{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .actives{
     display: block;
-    width: 100%;
+    width: calc((100% - 48) / 3);
     border-bottom: #fcfcfc;
 }
 
 .description{
     display: block;
-    padding: 0;
-    margin: 32px 226px 32px 16px;
+    padding: 32px 16px;
+    border: 1px #e7e9fc;
+    border-top: none;
 }
 
 .description-foto{
@@ -349,6 +365,7 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .txt-p{
@@ -360,6 +377,7 @@ p{
 .down{
     background-color: #2e2f42;
     display: block;
+    padding: 100px 0;
 }
 
 
@@ -372,6 +390,8 @@ p{
 
 .logo{
     margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .downtxt {
