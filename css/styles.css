@@ -186,6 +186,7 @@ img{
     padding: 0;
     margin: 0;
     height: 344px;
+    justify-content: space-between;
 }
 
 .ghost-title{
@@ -205,11 +206,19 @@ img{
     margin: 100 0 0 0;
 }
 
+.about-item{
+    display: block;
+    width: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
+}
+
 .team{
     background-color: #F4F4FD;
+    height: 732px;
 }
 
 .title-team{
+    margin-top: 120px;
     text-transform: capitalize;
     color: #2e2f42;
 }
@@ -277,6 +286,7 @@ p{
     text-align: center;
     letter-spacing: 0.02em; 
     display: block;
+    margin-top: 8px;
 }
 
 .title-portfolio{
@@ -286,6 +296,30 @@ p{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-top: 120px;
+}
+
+.list-portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px 36px;
+    padding: 0;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actives{
+    display: block;
+    width: 100%;
+}
+
+.description{
+    display: block;
+    padding: 0;
+    margin: 32px 226px 32px 16px;
 }
 
 .description-foto{
@@ -304,12 +338,26 @@ p{
 
 .down{
     background-color: #2e2f42;
+    display: block;
+}
+
+
+.down-info{
+    display: block;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.logo{
+    margin-top: 0px;
 }
 
 .downtxt {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 ul {
