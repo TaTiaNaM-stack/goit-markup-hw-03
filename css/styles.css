@@ -33,7 +33,7 @@ img{
 }
 
 
-.page-heder{
+.page-header{
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -79,7 +79,7 @@ img{
 
 .active-navigation{
    display: block;
-   padding: 24px 0 24px;
+    padding: 24px 0
 }
 
 .contact-list{
