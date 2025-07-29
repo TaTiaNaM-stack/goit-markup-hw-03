@@ -39,14 +39,13 @@ img{
 
 .navigation{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0;
 }
 
 .logo-header{
     padding: 24px 0 24px;
     margin-right: 76px;
+    text-decoration: none;
 }
 
 .studio-up{
@@ -66,8 +65,6 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 0;
-    display: block;
 }
 
 .list{
@@ -79,7 +76,6 @@ img{
 
 .active-navigation{
    display: block;
-    padding: 24px 0
 }
 
 .contact-list{
@@ -102,6 +98,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 .main-menu:hover, .main-menu:focus{
     color: #404bbf;
@@ -109,6 +106,12 @@ img{
 
 .navigation{
     color: #434455;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-left: auto;
 }
 .navigation:hover{
     color: #404bbf;
@@ -117,15 +120,8 @@ img{
     color: #404bbf;
 }
 .contact{
-    color: #434455;
-    text-decoration: none;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-left: auto;
-    display: flex;
-    padding: 0;
+
+   
 }
 .contact:hover {
     color: #404bbf;
@@ -143,8 +139,6 @@ img{
 .big-title{
     background-color: #2e2f42;
     padding: 188px 0;
-    margin: 0;
-    display: block;
     
 }
 
@@ -157,12 +151,8 @@ img{
         color: #fff;
         background-color: #2e2f42;
         width: 496px;
-        height: 600px;
         padding: 0;
         padding-bottom: 0;
-        margin-top: 188px;
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: 0;
         display: block;
         max-width: 496px;
@@ -198,9 +188,6 @@ img{
 
 .about{
     padding: 120px 0;
-    margin: 0;
-    height: 344px;
-    justify-content: space-between;
 }
 
 .ghost-title{
@@ -226,17 +213,12 @@ img{
 
 .list-about{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
     padding: 0;
-    margin: 100px 0 0 0;
 }
 
 .about-item{
-    display: block;
     width: calc((100% - 3 * 24px) / 4);
-    gap: 24px;
 }
 
 .title{
@@ -249,35 +231,27 @@ img{
 }
 
 .title-team{
-    margin-top: 120px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    padding-top: 120px;;
 }
 
 .list-team{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
     padding: 0;
-    margin-top: 100px;
 }
 
 .background{
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: calc((100% - 3 * 24px) / 4);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    display: block;
-    height: 380px;
 }
 
 .about-people{
-    padding: 32px 0;
     margin-top: 24px;
-    display: block;
 }
 
 .title, .title-man{
@@ -301,9 +275,6 @@ img{
 
 .title-team{
     font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
 }
@@ -321,7 +292,6 @@ p{
     text-align: center;
     letter-spacing: 0.02em; 
     display: block;
-    margin-top: 8px;
 }
 
 .title-portfolio{
@@ -331,33 +301,22 @@ p{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
 .list-portfolio{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px 36px;
     padding: 0;
-    margin-top: 100px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
 .actives{
-    display: block;
-    width: calc((100% - 48) / 3);
-    border-bottom: #fcfcfc;
+    width: calc((100% - 48px) / 3);
 }
 
 .description{
-    display: block;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -380,16 +339,7 @@ p{
 
 .down{
     background-color: #2e2f42;
-    display: block;
     padding: 100px 0;
-}
-
-
-.down-info{
-    display: block;
-    padding: 0;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .logo{
@@ -403,6 +353,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+    max-width: 264px;
 }
 
 ul {
